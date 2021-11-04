@@ -1,1 +1,1 @@
-Holographic 12h time-lapses (one image = 30 minutes) of seveb bacterial species taken with Iprasense Cytonote 6 on thin-layer BHI Agar mediums (150 microns)
+Holographic 12h time-lapses (one image = 30 minutes) of seven pathogenic bacterial species taken with Iprasense Cytonote6 on thin-layer BHI Agar mediums (150 microns)
