@@ -33,6 +33,8 @@ The classification model used for this dataset is a CONV3D + LSTM2D model
 For a 7-frame classification model, the implementation in Keras would be 
 
 ```
+import tensorflow as tf
+
 class Conv3DModel(tf.keras.Model):
     package_frame = 0
 
@@ -52,7 +54,9 @@ class Conv3DModel(tf.keras.Model):
         self.flatten =  tf.keras.layers.Flatten(name="flatten")
         self.d1 = tf.keras.layers.Dense(64, activation='relu', name="d1")
         
-
+        # Dropout
+        self.dropout1 = tf.keras.layers.Dropout(0.3)
+        
     def call(self, x):
 
         x = self.conv1(x)
