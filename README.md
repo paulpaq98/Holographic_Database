@@ -13,6 +13,7 @@ Our models were implemented using python 3.7.0 together with Tensorflow 2.1.0 an
 
 The data in this repository is a sample from a database of holographic 12h time-lapses (one image = 30 minutes) of seven pathogenic bacterial species taken with Iprasense lens-free imaging system (Cytonote6) on thin-layer BHI Agar mediums (150 microns) collected by the Institut de Biologie Structurelle (IBS, France).
 
+Two sets of 24 images (for training and testing) for each species are present in this repository.
 
 # Detection Model
 
